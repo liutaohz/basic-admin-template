@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk=self.webpackChunk||[]).push([[694],{88650:function(e,n,r){r.r(n),r.d(n,{default:function(){return t}});r(67294);var a="pageConter___Eel56",c=r(85893),t=function(){return(0,c.jsx)(c.Fragment,{children:(0,c.jsx)("div",{className:a,children:"SearchProTable"})})}}}]);
