@@ -11,7 +11,8 @@ export default defineConfig({
   historyWithQuery:{},
   jsMinifier: 'terser',
   outputPath: 'dist/basic-admin-template',
-  publicPath: process.env.NODE_ENV === 'production' ? './' : '/',
+  publicPath: '/basic-admin-template/',
+  // publicPath: process.env.NODE_ENV === 'production' ? './' : '/',
   layout: {
     title: '@umijs/max',
   },
