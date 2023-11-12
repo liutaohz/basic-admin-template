@@ -210,13 +210,13 @@ const BasicProTable: React.FC<unknown> = () => {
         }}
         search={{
           labelWidth: 120,
-          optionRender: (searchConfig, formProps, dom) => {
-            console.log('searchConfig:', searchConfig)
-            console.log('formProps:', formProps)
-            console.log('dom:',dom)
-            let result:any=<div>123</div>
-            return result
-          }
+          // optionRender: (searchConfig, formProps, dom) => {
+          //   console.log('searchConfig:', searchConfig)
+          //   console.log('formProps:', formProps)
+          //   console.log('dom:',dom)
+          //   let result:any=<div>123</div>
+          //   return result
+          // }
         }}
         rowSelection={{
           type: 'checkbox',
