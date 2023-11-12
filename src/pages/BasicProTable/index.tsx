@@ -4,7 +4,11 @@ const BasicProTable: React.FC<unknown> = () => {
 
   return (<>
     <div className={styles.pageConter}>
-      BasicProTable
+      <div>BasicProTable</div>
+      <div className={styles.testDiv}>BasicProTable</div>
+      <div className={styles.testDiv}>BasicProTable</div>
+      <div className={styles.testDiv}>BasicProTable</div>
+      <div className={styles.testDiv}>BasicProTable</div>
     </div>
   </>)
 }
