@@ -46,9 +46,17 @@ const App: React.FC = () => {
       }}
     >
       <Layout style={{ height: '100vh' }}>
-        <Header style={{ padding: 0, height: '70px' }} >
-          <div>12313</div>
-        </Header>
+        <ConfigProvider
+          theme={{
+            components: {
+              Layout: {
+                headerBg: '#1677ff', // 可以在局部覆盖，也可以在全局统一写
+              }
+            },
+          }}
+          >
+          <Header style={{ padding: 0, height: '70px', paddingLeft:'20px' }} >TODO</Header>
+        </ConfigProvider>
         <Layout style={{ height: 'calc(100vh - 70px)',overflow:'hidden' }}>
           <Sider
             width={240}
@@ -71,7 +79,7 @@ const App: React.FC = () => {
               />
             </div>s
           </Sider>
-          <Content style={{padding:'20px', backgroundColor:'#f1f1f1'}}>
+          <Content>
             <Outlet></Outlet>
           </Content>
         </Layout>
