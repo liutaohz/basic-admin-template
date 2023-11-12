@@ -1,9 +1,19 @@
 {
   "private": "false",
   "author": "liutao <liutaohangzhou@163.com>",
+  "homepage": "https://liutaohz.github.io/basic-admin-template/",
+  "bugs": "https://github.com/liutaohz/basic-admin-template/issues",
+  "keyword": "ProTable,admin,react,antd",
+  "keywords": [
+    "ProTable",
+    "admin",
+    "react",
+    "antd"
+  ],
   "scripts": {
     "dev": "max dev",
     "build": "max build",
+    "deploy": "gh-pages -d dist",
     "format": "prettier --cache --write .",
     "prepare": "husky install",
     "postinstall": "max setup",
@@ -19,6 +29,7 @@
   "devDependencies": {
     "@types/react": "^18.0.33",
     "@types/react-dom": "^18.0.11",
+    "gh-pages": "^6.0.0",
     "husky": "^8.0.3",
     "lint-staged": "^13.2.0",
     "prettier": "^2.8.7",
