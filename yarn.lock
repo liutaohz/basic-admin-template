@@ -88,6 +88,20 @@
   resolved "https://registry.npmmirror.com/@ant-design/moment-webpack-plugin/-/moment-webpack-plugin-0.0.3.tgz#2524f513b2f0b223b94b99626be281d0a334123f"
   integrity sha512-MLm1FUpg02fP615ShQnCUN9la2E4RylDxKyolkGqAWTIHO4HyGM0A5x71AMALEyP/bC+UEEWBGSQ+D4/8hQ+ww==
 
+"@ant-design/pro-card@2.5.0":
+  version "2.5.0"
+  resolved "https://registry.npmmirror.com/@ant-design/pro-card/-/pro-card-2.5.0.tgz#dca68d73131debbd0e5915efd35d6a9607dee907"
+  integrity sha512-6UHp+DtYzZhWU02vAZe5pBcVz9usKdX+6djBwUQe+1y3GNJgySBwajfWeW+xt7/RkgMSMZOsYV8XTukT4iDDnA==
+  dependencies:
+    "@ant-design/icons" "^5.0.0"
+    "@ant-design/pro-provider" "2.10.5"
+    "@ant-design/pro-utils" "2.12.0"
+    "@babel/runtime" "^7.18.0"
+    classnames "^2.3.2"
+    omit.js "^2.0.2"
+    rc-resize-observer "^1.0.0"
+    rc-util "^5.4.0"
+
 "@ant-design/pro-card@2.5.24":
   version "2.5.24"
   resolved "https://registry.npmmirror.com/@ant-design/pro-card/-/pro-card-2.5.24.tgz#0691160314e44cc66fa378e988214fd7b260afaf"
@@ -102,7 +116,24 @@
     rc-resize-observer "^1.0.0"
     rc-util "^5.4.0"
 
-"@ant-design/pro-components@^2.0.1", "@ant-design/pro-components@^2.4.4":
+"@ant-design/pro-components@2.6.0":
+  version "2.6.0"
+  resolved "https://registry.npmmirror.com/@ant-design/pro-components/-/pro-components-2.6.0.tgz#1bef2433e8caf2805483edd4e4cc380f792baf8e"
+  integrity sha512-TtPsySEf9Gx00JoV4NcRRLA/Z4HdJJyGyWxNvqoj++5gqVW8On65vOadgiJaVDMUuOflHGf6hRHRam3GhUAB7g==
+  dependencies:
+    "@ant-design/pro-card" "2.5.0"
+    "@ant-design/pro-descriptions" "2.4.0"
+    "@ant-design/pro-field" "2.10.0"
+    "@ant-design/pro-form" "2.14.0"
+    "@ant-design/pro-layout" "7.15.0"
+    "@ant-design/pro-list" "2.5.0"
+    "@ant-design/pro-provider" "2.10.5"
+    "@ant-design/pro-skeleton" "2.1.6"
+    "@ant-design/pro-table" "3.8.0"
+    "@ant-design/pro-utils" "2.12.0"
+    "@babel/runtime" "^7.16.3"
+
+"@ant-design/pro-components@^2.0.1":
   version "2.6.35"
   resolved "https://registry.npmmirror.com/@ant-design/pro-components/-/pro-components-2.6.35.tgz#deb73c9d161a429f5ade72783f99feec2a5f84cd"
   integrity sha512-2TKg2yWDZGLnntH4R/tgfNJGn8sU6j92jqkJAoSqIo5h3Zdl0PVSbHo6m+oFuAjF7Pst5kikTR2fPqw3g872xA==
@@ -119,6 +150,20 @@
     "@ant-design/pro-utils" "2.14.12"
     "@babel/runtime" "^7.16.3"
 
+"@ant-design/pro-descriptions@2.4.0":
+  version "2.4.0"
+  resolved "https://registry.npmmirror.com/@ant-design/pro-descriptions/-/pro-descriptions-2.4.0.tgz#19ae0952ddd85022df9e001714736956b9a8e956"
+  integrity sha512-lXUCbo+694xf2e65iJaEuKLLZnkoqvHReggm5NCtRTsLiQZMA0JLDC74a976Hz2Ze9gVN21gXypfFhLb8NOqrw==
+  dependencies:
+    "@ant-design/pro-field" "2.10.0"
+    "@ant-design/pro-form" "2.14.0"
+    "@ant-design/pro-skeleton" "2.1.6"
+    "@ant-design/pro-utils" "2.12.0"
+    "@babel/runtime" "^7.18.0"
+    rc-resize-observer "^0.2.3"
+    rc-util "^5.0.6"
+    use-json-comparison "^1.0.5"
+
 "@ant-design/pro-descriptions@2.5.19":
   version "2.5.19"
   resolved "https://registry.npmmirror.com/@ant-design/pro-descriptions/-/pro-descriptions-2.5.19.tgz#643201f246449880a03a259decc6c32b6c499d33"
@@ -131,6 +176,23 @@
     "@babel/runtime" "^7.18.0"
     rc-resize-observer "^0.2.3"
     rc-util "^5.0.6"
+
+"@ant-design/pro-field@2.10.0":
+  version "2.10.0"
+  resolved "https://registry.npmmirror.com/@ant-design/pro-field/-/pro-field-2.10.0.tgz#04411bcc73c23d406178e3c5ba2bb86323c9dbf8"
+  integrity sha512-4IWx5/xJkB/xUts6Kp9hbPD5fsZRoYQRTnchDSXzMlG9d0VdZj8DJVsTHhVIW/PyTaPKfgCm1uiUMdR50h1tZA==
+  dependencies:
+    "@ant-design/icons" "^5.0.0"
+    "@ant-design/pro-provider" "2.10.5"
+    "@ant-design/pro-utils" "2.12.0"
+    "@babel/runtime" "^7.18.0"
+    "@chenshuai2144/sketch-color" "^1.0.8"
+    classnames "^2.3.2"
+    dayjs "^1.11.8"
+    lodash.tonumber "^4.0.3"
+    omit.js "^2.0.2"
+    rc-util "^5.4.0"
+    swr "^2.0.0"
 
 "@ant-design/pro-field@2.13.5":
   version "2.13.5"
@@ -148,6 +210,26 @@
     omit.js "^2.0.2"
     rc-util "^5.4.0"
     swr "^2.0.0"
+
+"@ant-design/pro-form@2.14.0":
+  version "2.14.0"
+  resolved "https://registry.npmmirror.com/@ant-design/pro-form/-/pro-form-2.14.0.tgz#267987697e7840be46469a118d5ce3d9e10fb2f7"
+  integrity sha512-xsGYdvpA0e51vPYjv3h3pPMNypyRh8vQOtya55tzgfRURrzBWvG1MN1ofv6JX0ktdo7LmzCBfukW3sZYH0SIaw==
+  dependencies:
+    "@ant-design/icons" "^5.0.0"
+    "@ant-design/pro-field" "2.10.0"
+    "@ant-design/pro-provider" "2.10.5"
+    "@ant-design/pro-utils" "2.12.0"
+    "@babel/runtime" "^7.18.0"
+    "@chenshuai2144/sketch-color" "^1.0.7"
+    "@umijs/use-params" "^1.0.9"
+    classnames "^2.3.2"
+    lodash.merge "^4.6.2"
+    omit.js "^2.0.2"
+    rc-resize-observer "^1.1.0"
+    rc-util "^5.0.6"
+    use-json-comparison "^1.0.5"
+    use-media-antd-query "^1.1.0"
 
 "@ant-design/pro-form@2.21.6":
   version "2.21.6"
@@ -167,6 +249,28 @@
     omit.js "^2.0.2"
     rc-resize-observer "^1.1.0"
     rc-util "^5.0.6"
+
+"@ant-design/pro-layout@7.15.0":
+  version "7.15.0"
+  resolved "https://registry.npmmirror.com/@ant-design/pro-layout/-/pro-layout-7.15.0.tgz#99b33e032a73ecd5341d06733a12228afe811e2c"
+  integrity sha512-EqYYrWI5KKj2A1vecJrOBxRAQRDVHsoz3sOXMEeloeYmsjzc8h7by1l+HVTg/hJIkCTReAUYmfLrgW4iCuy4WQ==
+  dependencies:
+    "@ant-design/icons" "^5.0.0"
+    "@ant-design/pro-provider" "2.10.5"
+    "@ant-design/pro-utils" "2.12.0"
+    "@babel/runtime" "^7.18.0"
+    "@umijs/route-utils" "^4.0.0"
+    "@umijs/use-params" "^1.0.9"
+    classnames "^2.3.2"
+    lodash.merge "^4.6.2"
+    omit.js "^2.0.2"
+    path-to-regexp "2.4.0"
+    rc-resize-observer "^1.1.0"
+    rc-util "^5.0.6"
+    swr "^2.0.0"
+    use-json-comparison "^1.0.3"
+    use-media-antd-query "^1.1.0"
+    warning "^4.0.3"
 
 "@ant-design/pro-layout@7.17.13":
   version "7.17.13"
@@ -188,6 +292,23 @@
     swr "^2.0.0"
     warning "^4.0.3"
 
+"@ant-design/pro-list@2.5.0":
+  version "2.5.0"
+  resolved "https://registry.npmmirror.com/@ant-design/pro-list/-/pro-list-2.5.0.tgz#fe5731634943221b4575b07abefecc9272b7b54f"
+  integrity sha512-+SzWvAOAiOK3fqWtiNaS8dqcz8xQWSNoanZXVpv13G1t6fnsXpV3NLctu1stUad880DiPX4XtWJn4XBSdyTqfQ==
+  dependencies:
+    "@ant-design/icons" "^5.0.0"
+    "@ant-design/pro-card" "2.5.0"
+    "@ant-design/pro-field" "2.10.0"
+    "@ant-design/pro-table" "3.8.0"
+    "@ant-design/pro-utils" "2.12.0"
+    "@babel/runtime" "^7.18.0"
+    classnames "^2.3.2"
+    dayjs "^1.11.8"
+    rc-resize-observer "^1.0.0"
+    rc-util "^4.19.0"
+    use-media-antd-query "^1.1.0"
+
 "@ant-design/pro-list@2.5.34":
   version "2.5.34"
   resolved "https://registry.npmmirror.com/@ant-design/pro-list/-/pro-list-2.5.34.tgz#ee7afbeae9fdcde09a84c72068aefa7a0047e384"
@@ -204,6 +325,17 @@
     rc-resize-observer "^1.0.0"
     rc-util "^4.19.0"
 
+"@ant-design/pro-provider@2.10.5":
+  version "2.10.5"
+  resolved "https://registry.npmmirror.com/@ant-design/pro-provider/-/pro-provider-2.10.5.tgz#9f6f3cab5ab7ca28b9a12e04c35f9ac809808a9e"
+  integrity sha512-ymEInaDM3wi9ImwaZK2mLuM87WiHmyx2K8W/5ByB7e5u+qwWon7kpuN9s59tMLK4A3ShNZTTl6WI+UE63cBxuA==
+  dependencies:
+    "@ant-design/cssinjs" "^1.9.1"
+    "@babel/runtime" "^7.18.0"
+    "@ctrl/tinycolor" "^3.4.0"
+    rc-util "^5.0.1"
+    swr "^2.0.0"
+
 "@ant-design/pro-provider@2.13.3":
   version "2.13.3"
   resolved "https://registry.npmmirror.com/@ant-design/pro-provider/-/pro-provider-2.13.3.tgz#12cea8823c74c5c68158329f669d77b6600a4a75"
@@ -214,6 +346,14 @@
     "@ctrl/tinycolor" "^3.4.0"
     rc-util "^5.0.1"
     swr "^2.0.0"
+
+"@ant-design/pro-skeleton@2.1.6":
+  version "2.1.6"
+  resolved "https://registry.npmmirror.com/@ant-design/pro-skeleton/-/pro-skeleton-2.1.6.tgz#ef280bac886e26aeb2a404e002115cc57ea6ede9"
+  integrity sha512-IQD1rjMvHA2Ca8Ez/w8JWAEpGJSjCUwlm0Xm0KU02xOKw3YNGE8HC8TdZ9TbA3VJIzvi6g/J/UQWImWRgkRFbA==
+  dependencies:
+    "@babel/runtime" "^7.18.0"
+    use-media-antd-query "^1.1.0"
 
 "@ant-design/pro-skeleton@2.1.9":
   version "2.1.9"
@@ -243,6 +383,41 @@
     omit.js "^2.0.2"
     rc-resize-observer "^1.0.0"
     rc-util "^5.0.1"
+
+"@ant-design/pro-table@3.8.0":
+  version "3.8.0"
+  resolved "https://registry.npmmirror.com/@ant-design/pro-table/-/pro-table-3.8.0.tgz#e106a55b29886ea7bc06ba66ee3cc746251abfac"
+  integrity sha512-zvyFHLcIMgwRW2udC/dbgytZhNraeerc52aRWSgh28C9j5ydO7e1MSvIUOQizudBwVy6vvKxvMCwfvMRn1c2QA==
+  dependencies:
+    "@ant-design/icons" "^5.0.0"
+    "@ant-design/pro-card" "2.5.0"
+    "@ant-design/pro-field" "2.10.0"
+    "@ant-design/pro-form" "2.14.0"
+    "@ant-design/pro-provider" "2.10.5"
+    "@ant-design/pro-utils" "2.12.0"
+    "@babel/runtime" "^7.18.0"
+    "@dnd-kit/core" "^6.0.8"
+    "@dnd-kit/sortable" "^7.0.2"
+    "@dnd-kit/utilities" "^3.2.1"
+    classnames "^2.3.2"
+    dayjs "^1.11.8"
+    omit.js "^2.0.2"
+    rc-resize-observer "^1.0.0"
+    rc-util "^5.0.1"
+    use-json-comparison "^1.0.5"
+
+"@ant-design/pro-utils@2.12.0":
+  version "2.12.0"
+  resolved "https://registry.npmmirror.com/@ant-design/pro-utils/-/pro-utils-2.12.0.tgz#f5b3e71eb88bef8d21c81de783c6780b662e71e9"
+  integrity sha512-o4IjsMCguxTTIeQs6LdXxUDbA6OOAwPQVE2466IDYF+InmLbYAYhzSdMInqpL/Yg8+GeB2AfpGEdzuEQ8yKkQw==
+  dependencies:
+    "@ant-design/icons" "^5.0.0"
+    "@ant-design/pro-provider" "2.10.5"
+    "@babel/runtime" "^7.18.0"
+    classnames "^2.3.2"
+    dayjs "^1.11.8"
+    rc-util "^5.0.6"
+    swr "^2.0.0"
 
 "@ant-design/pro-utils@2.14.12":
   version "2.14.12"
@@ -3262,7 +3437,7 @@ date-fns@2.x:
   dependencies:
     "@babel/runtime" "^7.21.0"
 
-dayjs@1.x, dayjs@^1.11.1, dayjs@^1.11.10, dayjs@^1.11.7:
+dayjs@1.x, dayjs@^1.11.1, dayjs@^1.11.10, dayjs@^1.11.7, dayjs@^1.11.8:
   version "1.11.10"
   resolved "https://registry.npmmirror.com/dayjs/-/dayjs-1.11.10.tgz#68acea85317a6e164457d6d6947564029a6a16a0"
   integrity sha512-vjAczensTgRcqDERK0SR2XMwsF/tSvnvlv6VcF2GIhg6Sx4yOIt/irsr1RDJsKiIyBzJDpCoXiWWq28MqH2cnQ==
@@ -8677,6 +8852,16 @@ use-isomorphic-layout-effect@^1.1.1:
   version "1.1.2"
   resolved "https://registry.npmmirror.com/use-isomorphic-layout-effect/-/use-isomorphic-layout-effect-1.1.2.tgz#497cefb13d863d687b08477d9e5a164ad8c1a6fb"
   integrity sha512-49L8yCO3iGT/ZF9QttjwLF/ZD9Iwto5LnH5LmEdk/6cFmXddqi2ulF0edxTwjj+7mqvpVVGQWvbXZdn32wRSHA==
+
+use-json-comparison@^1.0.3, use-json-comparison@^1.0.5:
+  version "1.0.6"
+  resolved "https://registry.npmmirror.com/use-json-comparison/-/use-json-comparison-1.0.6.tgz#a012bbc258ce745db1f56745dc653f575226cb21"
+  integrity sha512-xPadt5yMRbEmVfOSGFSMqjjICrq7nLbfSH3rYIXsrtcuFX7PmbYDN/ku8ObBn3v8o/yZelO1OxUS5+5TI3+fUw==
+
+use-media-antd-query@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.npmmirror.com/use-media-antd-query/-/use-media-antd-query-1.1.0.tgz#f083ad7e292c1c0261b6bbfaac0edc3e0920d85d"
+  integrity sha512-B6kKZwNV4R+l4Rl11sWO7HqOay9alzs1Vp1b4YJqjz33YxbltBCZtt/yxXxkXN9rc1S7OeEL/GbwC30Wmqhw6Q==
 
 use-sync-external-store@1.2.0, use-sync-external-store@^1.0.0, use-sync-external-store@^1.2.0:
   version "1.2.0"
